@@ -141,8 +141,11 @@ export const Contact = (props) => {
         <div className='container text-center'>
           <p>
             &copy; Vision Paper GmbH{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+            <a href='https://shops.act.at/10001616' rel='nofollow'>
+              AGB{" "}
+            </a>
+            <a href='https://shops.act.at/10001616' rel='nofollow'>
+              Impressum
             </a>
           </p>
         </div>
