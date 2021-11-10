@@ -45,7 +45,7 @@ export const Contact = (props) => {
                     melde dich so schnell wie möglich zurück.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit} netlify>
+              <form name='sentMessage' validate method="POST" netlify>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
