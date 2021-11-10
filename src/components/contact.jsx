@@ -141,10 +141,10 @@ export const Contact = (props) => {
         <div className='container text-center'>
           <p>
             &copy; Vision Paper GmbH{' '}
-            <a href='https://shops.act.at/10001616' rel='nofollow'>
+            <a href='https://shops.act.at/10001616/desktop/de-de/agb/' rel='nofollow'>
               AGB{" "}
             </a>
-            <a href='https://shops.act.at/10001616' rel='nofollow'>
+            <a href='https://shops.act.at/10001616/desktop/de-de/informationen/' rel='nofollow'>
               Impressum
             </a>
           </p>
