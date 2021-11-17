@@ -125,7 +125,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-hand-middle-finger'></i> 
+                  <i className='fa fa-exclamation'></i> Übungsfirma
                 </span>{' '}
                 {props.data ? props.data.impressum.üfa_info : 'loading'}
               </p>
