@@ -206,14 +206,14 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; Vision Paper GmbH{' '}
-            <a href={props.data.agb} rel='nofollow'>
-              AGB{" "}
+            &copy; Vision Paper GmbH<br/>
+            <a href={props.data ? props.data.agb: "loading..."} rel='nofollow'>
+              AGB<br/>
             </a>
-            <a href={props.data.shop_info} rel='nofollow'>
-              Shop Informationen
+            <a href={props.data ? props.data.shop_info : "loading..."} rel='nofollow'>
+              Shop Informationen{" "}<br/>
             </a>
-            <a href={props.data.privacy_policy} rel='nofollow'>
+            <a href={props.data ? props.data.privacy_policy : "loading..."} rel='nofollow'>
               Datenschutzbestimmungen
             </a>
           </p>
