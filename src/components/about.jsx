@@ -12,7 +12,7 @@ export const About = (props) => {
               <h2>Über Uns</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h2>Leitbild</h2>
-              <p>{props.data ? props.data.misison_statement : "loading..."}</p>
+              <p>{props.data ? props.data.mission_statement : "loading..."}</p>
               <h2>Angebot</h2>
               <p>{props.data ? props.data.offer : "loading..."}</p>
               <h3>Warum sollten Sie mit uns arbeiten?</h3>
