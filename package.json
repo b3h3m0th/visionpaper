@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish": "git ch production && git rebase main && git push -f && git ch -"
+    "publish": "git checkout production && git rebase main && git push -f && git checkout -"
   },
   "eslintConfig": {
     "extends": "react-app"
