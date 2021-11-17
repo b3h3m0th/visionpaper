@@ -146,7 +146,10 @@
       "bic": "ACTBATW0",
       "developer": "Simon Ostini",
       "üfa_info": "Die Vision Paper GmbH ist eine ÜBUNGSFIRMA der HAK Bregenz Digital Business. Wir handeln ausschließlich mit FIKTIVEN Waren und UNECHTEN Geldbeträgen."
-    }
+    },
+    "agb": "https://shops.act.at/10001616/desktop/de-de/agb/",
+    "shop_info": "https://shops.act.at/10001616/desktop/de-de/informationen/",
+    "privacy_policy": "https://shops.act.at/10001616/desktop/de-de/datenschutzbestimmungen/"
   },
   "Features": [
     {

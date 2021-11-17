@@ -207,11 +207,14 @@ export const Contact = (props) => {
         <div className='container text-center'>
           <p>
             &copy; Vision Paper GmbH{' '}
-            <a href='https://shops.act.at/10001616/desktop/de-de/agb/' rel='nofollow'>
+            <a href={props.data.agb} rel='nofollow'>
               AGB{" "}
             </a>
-            <a href='https://shops.act.at/10001616/desktop/de-de/informationen/' rel='nofollow'>
-              Impressum
+            <a href={props.data.shop_info} rel='nofollow'>
+              Shop Informationen
+            </a>
+            <a href={props.data.privacy_policy} rel='nofollow'>
+              Datenschutzbestimmungen
             </a>
           </p>
         </div>
