@@ -123,12 +123,27 @@
   ],
   "Contact": {
     "address": "Hinterfeldgasse 19, 6900 Bregenz, Austria",
-    "phone": "",
     "email": "visionpaper874@uebungsfirmen.at",
+    "phone": "+43 5574 7233 541",
     "facebook": "",
     "twitter": "",
     "youtube": "",
-    "instagram": "https://instagram.com/vision.paper/"
+    "instagram": "https://instagram.com/vision.paper/",
+    "impressum": {
+      "responsible": "Simon Ostini, Obmann Managemant Rechnungswesen",
+      "name": "Vision Paper GmbH",
+      "legal_form": "GmbH",
+      "uid": "ATU20068762",
+      "country": "AUSTRIA",
+      "city": "Bregenz",
+      "postcode": "6900",
+      "street": "Hinterfeldgasse 19",
+      "company_registration_number": "874",
+      "court": "Handelsgericht Wien",
+      "iban": "AT029900000370051593",
+      "bic": "ACTBATW0",
+      "developer": "Simon Ostini"
+    }
   },
   "Features": [
     {

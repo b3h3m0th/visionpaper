@@ -121,6 +121,64 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : 'loading'}
               </p>
             </div>
+            <h3>Impressum</h3>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-user'></i> Verantwortlicher Herausgeber
+                </span>{' '}
+                {props.data ? props.data.impressum.responsible : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-building'></i> Firma
+                </span>{' '}
+                {props.data ? props.data.impressum.name : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-book'></i> Rechtsform
+                </span>{' '}
+                {props.data ? props.data.impressum.legal_form : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-book'></i> UID
+                </span>{' '}
+                {props.data ? props.data.impressum.uid : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-book'></i> Firmenbuchnummer
+                </span>{' '}
+                {props.data ? props.data.impressum.company_registration_number : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-bank'></i> Bankverbindung
+                </span>{' '}
+                IBAN: {props.data ? props.data.impressum.iban : 'loading'}<br/>
+                BIC: {props.data ? props.data.impressum.bic : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-code'></i> Entwicklung (Copy Pasta)
+                </span>{' '}
+                {props.data ? props.data.impressum.developer : 'loading'}<br/>
+              </p>
+            </div>
           </div>
           <div className='col-md-12'>
             <div className='row'>
