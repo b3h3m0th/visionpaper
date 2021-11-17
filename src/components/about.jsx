@@ -11,6 +11,10 @@ export const About = (props) => {
             <div className="about-text">
               <h2>Über Uns</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              <h2>Leitbild</h2>
+              <p>{props.data ? props.data.misison_statement : "loading..."}</p>
+              <h2>Angebot</h2>
+              <p>{props.data ? props.data.offer : "loading..."}</p>
               <h3>Warum sollten Sie mit uns arbeiten?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
