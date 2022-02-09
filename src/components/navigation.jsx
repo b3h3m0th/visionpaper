@@ -15,8 +15,8 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            Vision Paper
+          <a className='navbar-brand page-scroll' href='#page-top' style={{marginTop: -40}}>
+            <img src="https://shops.act.at/10001616/upload/imgproc/178367_logo.png" alt="Vision Paper Logo" />
           </a>{' '}
         </div>
 
