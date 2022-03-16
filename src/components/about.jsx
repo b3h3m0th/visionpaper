@@ -16,6 +16,8 @@ export const About = (props) => {
               <img src="img/organigramm.png" alt="Vision Paper GmbH Organigramm" />
               <h2>Leitbild</h2>
               <p>{props.data ? props.data.mission_statement : "loading..."}</p>
+              <h2>Nachhaltigkeit</h2>
+              <p>{props.data ? props.data.sustainability : "loading..."}</p>
               <h2>Angebot</h2>
               <p>{props.data ? props.data.offer : "loading..."}</p>
               <h3>Warum sollten Sie mit uns arbeiten?</h3>
