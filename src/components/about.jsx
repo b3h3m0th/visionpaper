@@ -1,3 +1,4 @@
+
 export const About = (props) => {
   return (
     <div id="about">
@@ -11,6 +12,8 @@ export const About = (props) => {
             <div className="about-text">
               <h2>Über Uns</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              <h2>Organigramm</h2>
+              <img src="img/organigramm.png" alt="Vision Paper GmbH Organigramm" />
               <h2>Leitbild</h2>
               <p>{props.data ? props.data.mission_statement : "loading..."}</p>
               <h2>Angebot</h2>
